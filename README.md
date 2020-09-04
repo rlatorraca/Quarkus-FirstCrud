@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # firstcrud project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
@@ -28,3 +29,7 @@ Or, if you don't have GraalVM installed, you can run the native executable build
 You can then execute your native executable with: `./target/firstcrud-1.0-SNAPSHOT-runner`
 
 If you want to learn more about building native executables, please consult https://quarkus.io/guides/building-native-image.
+=======
+# Quarkus-FirstCrud
+A simple application do learning Quarkus from Red Hat implementing a CRUD
+>>>>>>> fd3856e2f76c3ff6a05ac248ae1b3aa4e9236fb4
