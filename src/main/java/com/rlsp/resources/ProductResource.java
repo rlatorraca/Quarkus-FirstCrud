@@ -22,10 +22,10 @@ public class ProductResource {
     @POST
     @Transactional
     public void buscarTodosProdutos(ProductDTO dto) {
-        Product p = new Product();
-        p.name = dto.name;
-        p.value = dto.value;
-        p.persist();
+        Product product = new Product();
+        product.name = dto.name;
+        product.value = dto.value;
+        product.persist();
     }
 
     @PUT
@@ -36,10 +36,10 @@ public class ProductResource {
         Optional<Product> productOptional = Product.findByIdOptional(id);
 
         if (productOptional.isPresent()) {
-            Product produto = productOptional.get();
-            produto.name = dto.name;
-            produto.value = dto.value;
-            produto.persist();
+            Product product = productOptional.get();
+            product.name = dto.name;
+            product.value = dto.value;
+            product.persist();
         } else {
             throw new NotFoundException();
         }

@@ -1,0 +1,4 @@
+product:
+  - id : 2
+    name: "Gabriel"
+    value: 5

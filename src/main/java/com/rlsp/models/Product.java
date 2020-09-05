@@ -11,7 +11,7 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 @Entity
-@Table(name = "product")
+@Table(name = "PRODUCT")
 public class Product extends PanacheEntity {
 
     public String name;
